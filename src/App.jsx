@@ -5,7 +5,6 @@ import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import DetailPanel from "./components/DetailPanel";
 import ThemeToggle from "./components/ThemeToggle";
-import ParticleBackground from "./components/ParticleBackground";
 import { MOCK_SCREENS } from "./data/portfolioData";
 import "./styles/global.css";
 
@@ -28,7 +27,6 @@ export default function App() {
 
   return (
     <div className={`site${open ? " panel-open" : ""}`} data-dark={dark.toString()}>
-      <ParticleBackground dark={dark} />
       {/* ── LEFT PANE ── */}
       <div className="left-pane">
         <div className="container">
