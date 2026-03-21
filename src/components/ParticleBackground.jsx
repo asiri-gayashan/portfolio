@@ -9,9 +9,9 @@ export default function ParticleBackground({ dark }) {
     const ctx = canvas.getContext("2d");
     let animationFrameId;
 
-    const SPACING = 28;
-    const MOUSE_RADIUS = 530;
-    const PUSH_FORCE = 25;
+    const SPACING = 10;
+    const MOUSE_RADIUS = 50;
+    const PUSH_FORCE = 500;
     const SPRING = 0.12;
 
     let particles = [];
@@ -41,7 +41,8 @@ export default function ParticleBackground({ dark }) {
 
     function animate() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      ctx.fillStyle = dark ? "rgba(255, 255, 255, 0.2)" : "rgba(0, 0, 0, 0.2)";
+      // Increased opacity slightly for sharp definition
+      ctx.fillStyle = dark ? "rgba(255, 255, 255, 0.35)" : "rgba(0, 0, 0, 0.35)";
 
       let scrollY = scrollContainer.scrollTop || 0;
       let mapHeight = rows * SPACING;
@@ -89,11 +90,12 @@ export default function ParticleBackground({ dark }) {
         p.y += (targetY - p.y) * SPRING;
 
         // 4. Draw
-        let sx = p.x;
-        let sy = p.y - scrollY;
+        // Use Math.round to snap exactly to pixels, avoiding sub-pixel antialiasing blur
+        let sx = Math.round(p.x);
+        let sy = Math.round(p.y - scrollY);
 
         ctx.beginPath();
-        ctx.arc(sx, sy, 1.2, 0, Math.PI * 2);
+        ctx.arc(sx, sy, 1, 0, Math.PI * 2);
         ctx.fill();
       }
       
