@@ -1,0 +1,16 @@
+.env
+node_modules
+.vite
+.env.local
+.env.production
+.env.development
+.env.test
+.env.example
+.env.local.example
+.env.production.example
+.env.development.example
+.env.test.example
+.env.local.example
+.env.production.example
+.env.development.example
+.env.test.example

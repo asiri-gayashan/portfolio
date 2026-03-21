@@ -1,0 +1,145 @@
+export const MOCK_SCREENS = {
+  atlar: [
+    { bg: "#0f0f0f", label: "Dashboard Overview" },
+    { bg: "#141414", label: "Treasury Analytics" },
+    { bg: "#0a0a0a", label: "Cash Flow" },
+  ],
+  epidemic: [
+    { bg: "#111", label: "Insight Portal Home" },
+    { bg: "#0d0d0d", label: "Track Analytics" },
+    { bg: "#131313", label: "Playlist View" },
+  ],
+  savr: [
+    { bg: "#0f0f0f", label: "Fund Detail — XACT Norden" },
+    { bg: "#111", label: "Exponering" },
+    { bg: "#0c0c0c", label: "Detaljer" },
+    { bg: "#101010", label: "Hållbarhet" },
+  ],
+  viaplay: [
+    { bg: "#0d0d0d", label: "Autoplay Preview" },
+    { bg: "#111", label: "Android TV Home" },
+    { bg: "#0f0f0f", label: "Player UI" },
+  ],
+  blocket: [
+    { bg: "#0f0f0f", label: "Listing View" },
+    { bg: "#111", label: "Search" },
+  ],
+  evernote: [
+    { bg: "#0f0f0f", label: "Note Editor" },
+    { bg: "#111", label: "Notebooks" },
+  ],
+};
+
+export const works = [
+  {
+    id: "savr-platform",
+    title: "Platform Rework",
+    company: "SAVR",
+    desc: "Investment Platform",
+    iconClass: "icon-savr",
+    iconText: "◈",
+    imgKey: "savr",
+    heading: "Platform Rework",
+    body: [
+      "SAVR is an emerging competitor to platforms like Avanza and Nordnet, currently offering funds with plans to expand into shares and ETFs. Built on FNZ, a robust end-to-end wealth management platform, SAVR's advantages include lower currency exchange fees on shares and zero fund commissions.",
+      "As the product transitioned to FNZ, we explored how to present this new foundation in a way that improved user value. Noticing that competitors relied heavily on search for discovery, we introduced scalable investment lists—from data-driven metrics such as PE ratio and revenue to popular and curated themes—to make exploration easier, support future asset expansion, and provide an adaptable structure for the platform moving forward.",
+    ],
+  },
+  {
+    id: "atlar-dashboard",
+    title: "Dashboard",
+    company: "Atlar",
+    desc: "AI Treasury Platform",
+    iconClass: "icon-atlar",
+    iconText: "⬡",
+    imgKey: "atlar",
+    heading: "Dashboard",
+    body: [
+      "Atlar is an AI-native treasury platform built for modern finance teams. The dashboard centralises cash visibility, payment workflows, and forecasting into a single, real-time view.",
+      "We rethought the information hierarchy from scratch — prioritising actionable signals over raw data dumps — and built a design system that scales across Atlar's growing product surface.",
+    ],
+  },
+  {
+    id: "atlar-branding",
+    title: "Branding",
+    company: "Atlar",
+    desc: "AI Treasury Platform",
+    iconClass: "icon-atlar",
+    iconText: "⬡",
+    imgKey: "atlar",
+    heading: "Branding",
+    body: [
+      "Developing Atlar's visual identity to communicate trust, precision and forward-thinking technology to finance decision-makers.",
+      "The system spans logomark, typography, motion principles, and a dark-first UI palette that feels at home in demanding treasury workflows.",
+    ],
+  },
+  {
+    id: "epidemic-insight",
+    title: "Insight Portal",
+    company: "Epidemic Sound",
+    desc: "Soundtracking Platform",
+    iconClass: "icon-epidemic",
+    iconText: "◎",
+    imgKey: "epidemic",
+    heading: "Insight Portal",
+    body: [
+      "Epidemic Sound's Insight Portal gives creators and brands a window into how their licensed music is performing across platforms.",
+      "We redesigned the analytics experience to surface the most meaningful signals—track plays, placements, territory breakdowns—in a way that creators could act on without needing a data background.",
+    ],
+  },
+  {
+    id: "viaplay-autoplay",
+    title: "Autoplay Previews",
+    company: "Viaplay",
+    desc: "Streaming Service",
+    iconClass: "icon-viaplay",
+    iconText: "▶",
+    imgKey: "viaplay",
+    heading: "Autoplay Previews",
+    body: [
+      "Designing the autoplay preview experience for Viaplay's streaming service — helping users make faster, more confident content decisions.",
+      "The feature increased content engagement by reducing friction between browsing and watching.",
+    ],
+  },
+  {
+    id: "viaplay-tv",
+    title: "Android TV App",
+    company: "Viaplay",
+    desc: "Streaming Service",
+    iconClass: "icon-viaplay",
+    iconText: "▶",
+    imgKey: "viaplay",
+    heading: "Android TV App",
+    body: [
+      "Bringing the Viaplay experience to the 10-foot UI on Android TV — rethinking navigation, content discovery, and playback for the lean-back context.",
+    ],
+  },
+  {
+    id: "viaplay-player",
+    title: "Player for iOS, Android and Desktop",
+    company: "Viaplay",
+    desc: "Streaming Service",
+    iconClass: "icon-viaplay",
+    iconText: "▶",
+    imgKey: "viaplay",
+    heading: "Player",
+    body: [
+      "A unified player design across iOS, Android, and Desktop — maintaining platform conventions while delivering a coherent Viaplay experience.",
+    ],
+  },
+];
+
+export const experience = [
+  { id: "exp-atlar", company: "Atlar", role: "Sr. Product Designer", years: "2024 - Present", imgKey: "atlar",
+    heading: "Atlar", body: ["Senior Product Designer at Atlar, an AI-native treasury platform. Leading design across the core product — dashboard, payments, and forecasting."] },
+  { id: "exp-epidemic", company: "Epidemic Sound", role: "Sr. Product Designer", years: "2022 - 24'", imgKey: "epidemic",
+    heading: "Epidemic Sound", body: ["Redesigned the Insight Portal and contributed to the core soundtracking product experience at Epidemic Sound."] },
+  { id: "exp-savr", company: "SAVR", role: "Sr. Product Designer", years: "2021 - 22'", imgKey: "savr",
+    heading: "SAVR", body: ["Led the platform rework as SAVR transitioned to the FNZ wealth management infrastructure."] },
+  { id: "exp-blocket", company: "Blocket", role: "Product Designer", years: "2020 - 21'", imgKey: "blocket",
+    heading: "Blocket", body: ["Worked on Sweden's largest marketplace — improving listing flows, search, and buyer/seller trust."] },
+  { id: "exp-viaplay", company: "Viaplay", role: "Product Designer", years: "2014 - 20'", imgKey: "viaplay",
+    heading: "Viaplay", body: ["Six years designing core streaming experiences — player, discovery, TV apps — across multiple platforms."] },
+  { id: "exp-evernote", company: "Evernote", role: "Product Designer", years: "2013 - 14'", imgKey: "evernote",
+    heading: "Evernote", body: ["Contributed to the core note-taking and organisation experience at Evernote."] },
+];
