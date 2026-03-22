@@ -1,7 +1,11 @@
+import avatarImage from '../assets/images/Asiri-Gayashan.jpg';
+
 export default function BioSection() {
   return (
     <div className="bio-section">
-      <div className="avatar">A</div>
+      <div className="avatar">
+        <img src={avatarImage} alt="Asiri Gayashan" className="avatar-img" />
+      </div>
       <div className="bio-body">
         <p>Hi, I'm Asiri Gayashan!</p>
         <p>Sri Lanka–based Software Engineering Undergraduate at the University of Moratuwa with hands-on experience in full-stack development, UI/UX design, and graphic design. Currently specializing in Web Development with a growing interest in Machine Learning.</p>
