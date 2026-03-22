@@ -86,7 +86,13 @@ body {
 .bio-body a:hover { text-decoration: underline; }
 
 .section { margin-bottom: 52px; }
-.section-title { font-size: 14px; font-weight: 400; color: var(--text); margin-bottom: 20px; }
+.section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+.section-title { font-size: 14px; font-weight: 400; color: var(--text); }
+.work-tabs { display: flex; background: var(--panel-bg); border-radius: 20px; padding: 4px; gap: 4px; border: 1px solid var(--border); transition: background 0.2s, border-color 0.2s; }
+.tab-btn { background: transparent; border: none; font-family: inherit; font-size: 12px; font-weight: 500; color: var(--muted); padding: 6px 14px; border-radius: 16px; cursor: pointer; transition: all 0.2s ease; outline: none; }
+.tab-btn:hover { color: var(--text); }
+.tab-btn.active { background: var(--bg); color: var(--text); box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+[data-dark="true"] .tab-btn.active { box-shadow: 0 1px 3px rgba(0,0,0,0.4); }
 
 .work-list { list-style: none; }
 .work-item {

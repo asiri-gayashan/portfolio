@@ -33,6 +33,7 @@ export const MOCK_SCREENS = {
 export const works = [
   {
     id: "savr-platform",
+    category: "development",
     title: "Platform Rework",
     company: "SAVR",
     desc: "Investment Platform",
@@ -47,6 +48,7 @@ export const works = [
   },
   {
     id: "atlar-dashboard",
+    category: "development",
     title: "Dashboard",
     company: "Atlar",
     desc: "AI Treasury Platform",
@@ -61,6 +63,7 @@ export const works = [
   },
   {
     id: "atlar-branding",
+    category: "graphic-design",
     title: "Branding",
     company: "Atlar",
     desc: "AI Treasury Platform",
@@ -75,6 +78,7 @@ export const works = [
   },
   {
     id: "epidemic-insight",
+    category: "development",
     title: "Insight Portal",
     company: "Epidemic Sound",
     desc: "Soundtracking Platform",
@@ -89,6 +93,7 @@ export const works = [
   },
   {
     id: "viaplay-autoplay",
+    category: "graphic-design",
     title: "Autoplay Previews",
     company: "Viaplay",
     desc: "Streaming Service",
@@ -103,6 +108,7 @@ export const works = [
   },
   {
     id: "viaplay-tv",
+    category: "development",
     title: "Android TV App",
     company: "Viaplay",
     desc: "Streaming Service",
@@ -116,6 +122,7 @@ export const works = [
   },
   {
     id: "viaplay-player",
+    category: "development",
     title: "Player for iOS, Android and Desktop",
     company: "Viaplay",
     desc: "Streaming Service",
