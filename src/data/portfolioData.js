@@ -1,34 +1,3 @@
-export const MOCK_SCREENS = {
-  atlar: [
-    { bg: "#0f0f0f", label: "Dashboard Overview" },
-    { bg: "#141414", label: "Treasury Analytics" },
-    { bg: "#0a0a0a", label: "Cash Flow" },
-  ],
-  epidemic: [
-    { bg: "#111", label: "Insight Portal Home" },
-    { bg: "#0d0d0d", label: "Track Analytics" },
-    { bg: "#131313", label: "Playlist View" },
-  ],
-  savr: [
-    { bg: "#0f0f0f", label: "Fund Detail — XACT Norden" },
-    { bg: "#111", label: "Exponering" },
-    { bg: "#0c0c0c", label: "Detaljer" },
-    { bg: "#101010", label: "Hållbarhet" },
-  ],
-  viaplay: [
-    { bg: "#0d0d0d", label: "Autoplay Preview" },
-    { bg: "#111", label: "Android TV Home" },
-    { bg: "#0f0f0f", label: "Player UI" },
-  ],
-  blocket: [
-    { bg: "#0f0f0f", label: "Listing View" },
-    { bg: "#111", label: "Search" },
-  ],
-  evernote: [
-    { bg: "#0f0f0f", label: "Note Editor" },
-    { bg: "#111", label: "Notebooks" },
-  ],
-};
 
 export const works = [
   {
