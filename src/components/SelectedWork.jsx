@@ -38,5 +38,4 @@ export default function SelectedWork({ openPanel }) {
         ))}
       </ul>
     </section>
-  );
 }
